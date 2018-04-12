@@ -69,6 +69,7 @@
         right: 0px;
         height: 96px;
         padding: 25.6px 39.68px;
+        background-color: white;        
         margin-bottom: -120px;
         border-bottom: 1px solid #777;
         transition: height 0.5s, width 0.5s, transform 0.5s ease-out;
@@ -158,80 +159,5 @@
 
     [data-dpr="3"] ul.nav li {
         font-size: 34px;
-    } // .topBar {
-    //     position: fixed;
-    //     overflow: hidden;
-    //     z-index: 999;
-    //     top: -2px;
-    //     left: 0px;
-    //     right: 0px;
-    //     height: 96px;
-    //     padding: 25.6px 39.68px;
-    //     margin-bottom: -120px;
-    //     border-bottom: 1px solid #777;
-    //     transition: height 0.5s, width 0.5s, transform 0.5s ease-out;
-    // }
-    // .titleLogo {
-    //     width: 170px;
-    //     margin-top: 1px;
-    // }
-    // .menuTopBar {
-    //     position: relative;
-    // }
-    // .menuTopBar a {
-    //     display: block;
-    // }
-    // .menuTopBar img {
-    //     display: block;
-    // }
-    // .topBar img.menu-btn {
-    //     position: absolute;
-    //     right: 0;
-    //     top: 0;
-    //     bottom: 0;
-    //     margin: auto 0;
-    //     transition: height 0.5s, width 0.5s, transform 0.5s ease-out;
-    //     opacity: 0.9;
-    // }
-    // .option {
-    //     width: 38.4px;
-    //     height: 30.72px;
-    //     transform: rotateZ(-180deg);
-    // }
-    // .close {
-    //     width: 38.4px;
-    //     height: 38.4px;
-    //     transform: rotateZ(0deg);
-    // }
-    // ul.nav {
-    //     margin-top: 34px;
-    //     display: block;
-    // }
-    // ul.nav a {
-    //     display: block;
-    //     color: #000000;
-    //     width: 100%;
-    // }
-    // ul.nav li {
-    //     border-bottom: 1px solid #979797;
-    //     color: #efefef;
-    //     line-height: 82px;
-    //     height: 82px;
-    //     font-size: 20px;
-    // }
-    // [data-dpr="2"] ul.nav li {
-    //     font-size: 34px;
-    // }
-    // [data-dpr="3"] ul.nav li {
-    //     font-size: 34px;
-    // }
-    // ul.nav li:last-child {
-    //     position: relative;
-    //     border-bottom: 0;
-    //     color: red;
-    // }
-    // ul.nav li:last-child a {
-    //     color: #4A90E2;
-    //     font-weight: bold;
-    // }
+    } 
 </style>
