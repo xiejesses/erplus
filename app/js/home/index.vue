@@ -1,21 +1,24 @@
 <template lang="html">
-    <div>
+    <div class="home">
       <Heador></Heador>
       <!-- <Slider></Slider> -->
       <TopSlider></TopSlider>
+      <Slogan></Slogan>
     </div>
 </template>
 
 <script>
 import Heador from "../public/header.vue"
-// import Slider from "./hslider.vue"
 import TopSlider from "./topslider.vue"
+import Slogan from "./slogan.vue"
 export default {
   components: {
     Heador,
-    // Slider
-    TopSlider
+    TopSlider,
+    Slogan,
   }
 }
 </script>
+<style lang="scss">
 
+</style>
