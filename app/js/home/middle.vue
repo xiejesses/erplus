@@ -1,18 +1,25 @@
 <template lang="html">
-    <section class="section-second">
-        <div class="mission">
-            <span class="font-19">使命</span>
-            <span class="font-17">帮助中小企业提升管理水平</span>
-        </div>
-        <div class="vision">
-            <span class="font-19">愿景</span>
-            <span class="font-17">成为最好用、最多企业家使</span>
-            <p class="font-17">用的智能化管理系统</p>
-        </div>
-        <div class="learn-more">
-            <p class="learn-more-word font-13">了解更多</p>
-        </div>
-    </section>
+    <div>
+        <section class="section-second">
+            <div class="mission">
+                <span class="font-19">使命</span>
+                <span class="font-17">帮助中小企业提升管理水平</span>
+            </div>
+            <div class="vision">
+                <span class="font-19">愿景</span>
+                <span class="font-17">成为最好用、最多企业家使</span>
+                <p class="font-17">用的智能化管理系统</p>
+            </div>
+            <div class="learn-more">
+                <p class="learn-more-word font-13">了解更多</p>
+            </div>
+        </section>
+        <section class="section-third">
+            <p class="font-17">已有超过 2,500 家企业正通过使用大管加进行精细化管理并提升人均效能</p>
+            <img src="//www.erplus.co/mp/h5/img/represent-customer.png">
+        </section>
+    </div>
+
 </template>
 
 <script>
@@ -21,7 +28,8 @@
     }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
+@import "../../css/comment.scss";
     .section-second {
         margin-left: 0;
         margin-right: 0;
@@ -88,6 +96,27 @@
             .learn-more-word {
                 color: #777777;
             }
+        }
+    }
+
+    .section-third {
+        padding: 0;
+        background-color: #F6F9FA;
+        text-align: center;
+        width: 100%;
+        padding-top: 1.333rem;
+
+        p {
+            color: #333333;
+            width: 100%;
+            padding-left: 0.693rem;
+            padding-right: 0.693rem;
+        }
+
+        img {
+            width: 9rem;
+            margin-top: 0.6053rem;
+            margin-bottom: 1.3867rem;
         }
     }
 </style>

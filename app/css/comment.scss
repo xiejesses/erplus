@@ -34,6 +34,17 @@
     font-size: 30px;
 }
 
+.font-11 {
+    font-size: 12px;
+}
+
+[data-dpr="2"] .font-11 {
+    font-size: 16px;
+}
+
+[data-dpr="3"] .font-11 {
+    font-size: 36px;
+}
 .font-12 {
     font-size: 12px;
 }
@@ -95,7 +106,7 @@
 }
 
 .font-17 {
-    font-size: 19px;
+    font-size: 20px;
 }
 
 [data-dpr="2"] .font-17 {
@@ -135,7 +146,7 @@
 }
 
 [data-dpr="2"] .font-20 {
-    font-size: 40px;
+    font-size: 41px;
 }
 
 [data-dpr="3"] .font-20 {

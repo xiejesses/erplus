@@ -1,21 +1,29 @@
 <template lang="html">
     <div class="home">
-      <Heador></Heador>
-      <!-- <Slider></Slider> -->
+      <Head></Head>
       <TopSlider></TopSlider>
-      <Slogan></Slogan>
+      <Middle></Middle>
+      <BottomSlider></BottomSlider>
+      <Contact></Contact>
+      <Footer></Footer>
     </div>
 </template>
 
 <script>
-import Heador from "../public/header.vue"
+import Head from "../public/header.vue"
 import TopSlider from "./topslider.vue"
-import Slogan from "./slogan.vue"
+import Middle from "./middle.vue"
+import BottomSlider from "./bottomSlider.vue"
+import Contact from "./contact.vue"
+import Footer from "../public/footer.vue"
 export default {
   components: {
-    Heador,
+    Head,
     TopSlider,
-    Slogan,
+    Middle,
+    BottomSlider,
+    Contact,
+    Footer
   }
 }
 </script>

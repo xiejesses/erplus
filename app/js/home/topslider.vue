@@ -23,7 +23,7 @@
                     <img class="arrow" style="transform: rotate(30deg); transform-origin: 0px 50% 0px;" src="//www.erplus.co/mp/h5/img/animate/arrow.png">
                     <img class="animate-8" style="height: 2.04rem;" src="//www.erplus.co/mp/h5/img/animate/dialog.png">
                 </div>
-                <div class="slide-first-buttom">
+                <div class="slide-first-bottom">
                     <a class="button-big font-17" onclick="javascript:;">下载APP</a>
                     <a class="button-big font-17" onclick="javascript:;">预约演示</a>
                 </div>
@@ -148,7 +148,7 @@
     }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
     @import "../../css/comment.scss";
     @import "~swiper/dist/css/swiper.css";
     
@@ -206,14 +206,14 @@
         height: 5.3rem;
     }
     
-    .slide-first-buttom {
+    .slide-first-bottom {
         margin: 1.25rem 0 2.1rem 1.3rem;
     }
-    [data-dpr="2"] .slide-first-buttom {
+    [data-dpr="2"] .slide-first-bottom {
         margin: 1.25rem 0 1.1rem 1.3rem;
     }
 
-    .slide-first-buttom a:first-child {
+    .slide-first-bottom a:first-child {
         background: #4A90E2;
         color: #FFFFFF;
         letter-spacing: 0;
@@ -222,7 +222,7 @@
         text-decoration: none;
     }
 
-    .slide-first-buttom a:last-child {
+    .slide-first-bottom a:last-child {
         border: 1px solid #D8D8D8;
         color: #333333;
         letter-spacing: 0;
