@@ -13,16 +13,16 @@
                 </div>
                 <ul class="nav">
                     <li>
-                        <a>主页</a>
+                        <router-link to="/">主页</router-link>
                     </li>
                     <li>
-                        <a>关于我们</a>
+                        <router-link to="/about-us">关于我们</router-link>
                     </li>
                     <li>
-                        <a>管理团队</a>
+                        <router-link to="/team">管理团队</router-link>
                     </li>
                     <li>
-                        <a>企业文化</a>
+                        <router-link to="/culture">企业文化</router-link>
                     </li>
                     <li>
                         <span>下载大管加</span>
