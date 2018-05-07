@@ -102,7 +102,7 @@
 </script>
 
 <style lang="scss" scoped>
-    @import "../../css/comment.scss";
+    @import "../../css/comment.css";
     @import "~swiper/dist/css/swiper.css";
     .section-fourth {
         width: 100%;

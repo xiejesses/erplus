@@ -29,7 +29,7 @@
 </script>
 
 <style scoped lang="scss">
-@import "../../css/comment.scss";
+@import "../../css/comment.css";
     .section-second {
         margin-left: 0;
         margin-right: 0;
@@ -60,7 +60,7 @@
 
         .vision {
             text-align: center;
-            margin-bottom: 1rem; // margin-top: 0.36rem;
+            margin-bottom: 1rem; 
             span:nth-child(1) {
                 margin-left: auto;
                 color: #333333;

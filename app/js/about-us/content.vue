@@ -2,7 +2,9 @@
     <div class="content">
         <div class="top-photo">
         </div>
-        <p class="company-intro font-14">大管加是一款人性化、智能化的企业全方位管理系统，通过任务目标管理、绩效测评、CRM销售管理、进销存管理、办公自动化等一系列内置应用，帮助企业提升效率、激发员工主观能动性、更有效的开发维护客户、管理存货周转，从而降低运营成本、发掘优秀员工、提高收入能力，最终帮助企业更好的生存和发展。</p>
+        <div class="company-intro">
+         <span class="ab-font-14">大管加是一款人性化、智能化的企业全方位管理系统，通过任务目标管理、绩效测评、CRM销售管理、进销存管理、办公自动化等一系列内置应用，帮助企业提升效率、激发员工主观能动性、更有效的开发维护客户、管理存货周转，从而降低运营成本、发掘优秀员工、提高收入能力，最终帮助企业更好的生存和发展。</span>
+        </div>
         <div class="honors">
             <h2 class="honors-title font-25">荣誉与奖项</h2>
             <div class="honor-photo"></div>
@@ -134,63 +136,10 @@
 </script>
 
 <style scoped lang="scss">
-    @import "../../css/comment.scss";
-
-    * {
-        box-sizing: border-box;
-    }
-
-    [data-dpr="2"] body::after {
-        content: "";
-        background: url(//www.erplus.co/mp/h5/img/black.png) no-repeat 0 0;
-        background-size: 100% 100%;
-        width: 100%;
-        height: 0px;
-        display: block;
-        position: absolute;
-    }
-
-    [data-dpr="3"] body::after {
-        content: "";
-        background: url(//www.erplus.co/mp/h5/img/black.png) no-repeat 0 0;
-        background-size: 100% 100%;
-        width: 100%;
-        height: 1px;
-        display: block;
-        position: absolute;
-    }
-
-    .footer {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        border-bottom: 1px solid #000000;
-    }
-
-    .footer .footer-bottom {
-        margin: 0;
-        padding: 0;
-        background-color: #000000;
-        height: 0.8rem;
-        text-align: center;
-        border-bottom: 1px solid #000000;
-    }
+    @import "../../css/comment.css";
 
     h2 {
-        font-size: 20px;
         text-align: center;
-    }
-
-    [data-dpr="2"] h2 {
-        font-size: 40px;
-    }
-
-    [data-dpr="3"] h2 {
-        font-size: 60px;
-    }
-
-    .content {
-        width: 100%;
     }
 
     .top-photo {
@@ -201,11 +150,11 @@
         height: 5.3rem;
     }
 
-    p.company-intro {
+    .company-intro{
+        display:flex;
         width: 100%;
         padding: 0.96rem .61333333rem 1.11rem .6133333rem;
-        background-color: #fff;
-        text-align: justify;
+        text-align: justify !important;
     }
 
     div.honors {

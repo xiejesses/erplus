@@ -52,15 +52,32 @@ module.exports = env => {
             extractCSS: true,
             loaders: env.production?{
               css: ExtractTextPlugin.extract({use: 'css-loader!px2rem-loader?remUnit=64&remPrecision=8', fallback: 'vue-style-loader'}),
-              scss: ExtractTextPlugin.extract({use: 'css-loader!px2rem-loader?remUnit=64&remPrecision=8!sass-loader', fallback: 'vue-style-loader'})
+              scss: ExtractTextPlugin.extract({use: 'css-loader!px2rem-loader?remUnit=64&remPrecision=8!sass-loader', fallback: 'vue-style-loader'}),
+          //     options: {
+          //   outputStyle: 'expanded',
+          // }
             }:{
               css: 'vue-style-loader!css-loader!px2rem-loader?remUnit=64&remPrecision=8',
-              scss: 'vue-style-loader!css-loader!px2rem-loader?remUnit=64&remPrecision=8!sass-loader'
-            }
+              scss: 'vue-style-loader!css-loader!px2rem-loader?remUnit=64&remPrecision=8!sass-loader',
+          //     options: {
+          //   outputStyle: 'expanded',
+          // }
+            },
+            // loaders: env.production?{
+            //   css: ExtractTextPlugin.extract({use: 'css-loader!px2rem-loader?remUnit=64&remPrecision=8', fallback: 'vue-style-loader'}),
+            //   scss: ExtractTextPlugin.extract({use: 'css-loader!px2rem-loader?remUnit=64&remPrecision=8!sass-loader', fallback: 'vue-style-loader'})
+            // }:{
+            //   css: 'vue-style-loader!css-loader!px2rem-loader?remUnit=64&remPrecision=8',
+            //   scss: 'vue-style-loader!css-loader!px2rem-loader?remUnit=64&remPrecision=8!sass-loader'
+            // }
+            // outputStyle: 'expanded',
           }
         }, {
           test: /\.scss$/,
-          loader: 'style-loader!css-loader!sass-loader'
+          loader: 'style-loader!css-loader!sass-loader',
+          // options: {
+          //   outputStyle: 'expanded',
+          // }
         }
       ]
     },

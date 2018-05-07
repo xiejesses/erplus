@@ -9,7 +9,7 @@
             </div>
             <div class="footer-bottom">
                 <div style="font-size:0;"></div>
-                <p class="font-10">© 2017 深圳大管加软件与技术服务有限公司
+                <p class="f-font-10">© 2017 深圳大管加软件与技术服务有限公司
                     <a href="http://www.miitbeian.gov.cn">粤ICP备16011777号</a>
                 </p>
                 <div style="font-size:0;"></div>
@@ -26,7 +26,7 @@
 </script>
 
 <style scoped lang="scss">
-    @import "../../css/comment.scss";
+    @import "../../css/comment.css";
 
     footer {
         margin: 0;

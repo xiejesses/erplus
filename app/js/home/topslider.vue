@@ -149,13 +149,11 @@
 </script>
 
 <style scoped lang="scss">
-    @import "../../css/comment.scss";
+    @import "../../css/comment.css";
     @import "~swiper/dist/css/swiper.css";
     
     .slide-first {
         padding: 0;
-        // height: 5.3rem;
-        // overflow: hidden;
         margin-top: 96px;
         background-color: #F6F9FA;
         margin-left: 0;
@@ -178,7 +176,6 @@
     }
 
     article {
-        // margin-top: 96px;
         padding-top: 1.2rem;
         text-align: center;
     }
@@ -212,6 +209,9 @@
     [data-dpr="2"] .slide-first-bottom {
         margin: 1.25rem 0 1.1rem 1.3rem;
     }
+    [data-dpr="3"] .slide-first-bottom {
+        margin: 1.25rem 0 1.65rem 1.3rem;
+    }
 
     .slide-first-bottom a:first-child {
         background: #4A90E2;
@@ -234,11 +234,9 @@
     }
 
 
-    /* 动画相关 */
-
     .slide-first-middle img:nth-child(1) {
         width: 8rem;
-        left: 0.8rem; // top: 0.8rem;
+        left: 0.8rem;
         position: absolute;
         z-index: 20;
     }
@@ -272,7 +270,7 @@
         width: 0.16rem;
         height: 0px;
         left: 1.56rem;
-        bottom: 0; //    z-index: 1;
+        bottom: 0; 
     }
 
     .slide-first-middle .animate-2 {
@@ -302,7 +300,7 @@
         position: absolute;
         bottom: 0;
         width: 0.54rem;
-        height: 0px; // top: 3rem;
+        height: 0px; 
         left: 3.83rem;
     }
 
@@ -333,12 +331,9 @@
         bottom: 0;
         width: 1.44rem;
         height: 0px;
-        /*2.04rem*/
         left: 7.8rem;
         top: 1rem;
     }
-
-    /* 动画相关结束 */
 
     .slide-second {
         background: url(//www.erplus.co/mp/h5/img/task-system.png) no-repeat;

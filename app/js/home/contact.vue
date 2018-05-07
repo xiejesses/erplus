@@ -13,7 +13,7 @@
                     <input name="phone" type="text" class="font-12 form-control" id="inputPhone" placeholder="手机" maxlength="13">
                 </div>
                 <div class="form-group textarea-box">
-                    <textarea name="describe" class="font-13 form-control" rows="5" placeholder="请输入公司的相关信息，如行业、规模和公司地址"></textarea>
+                    <textarea name="describe" class="c-font-13 form-control" rows="5" placeholder="请输入公司的相关信息，如行业、规模和公司地址"></textarea>
                 </div>
                 <div class="submit-button">
                     <div>
@@ -33,7 +33,7 @@
 </script>
 
 <style scoped lang="scss">
-    @import "../../css/comment.scss";
+    @import "../../css/comment.css";
 
     .section-fifth {
         margin-left: 0;
@@ -107,7 +107,7 @@
                     margin-top: 0.5333rem;
                     resize: none;
                     width: 8.4533rem;
-                    font-size: 26px;
+                    height: 2.5rem;
                 }
 
                 .submit-button {
