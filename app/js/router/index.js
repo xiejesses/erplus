@@ -10,6 +10,8 @@ import "../../css/reset.scss"
 Vue.use(Router)
 
 export default new Router({
+    mode: 'history', //去掉 #
+    history: true,   //去掉 #
     routes: [
         {
             path: "/",

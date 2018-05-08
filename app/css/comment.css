@@ -33,6 +33,9 @@
 [data-dpr="3"] .font-10 {
     font-size: 36px /*no*/;
 }
+.f-font-10 {
+    font-size: 11px /*no*/;
+}
 [data-dpr="2"] .f-font-10 {
     font-size: 20px /*no*/;
 }
@@ -62,6 +65,9 @@
 
 [data-dpr="3"] .font-12 {
     font-size: 36px /*no*/;
+}
+.t-font-12 {
+    font-size: 12px /*no*/;
 }
 [data-dpr="2"] .t-font-12 {
     font-size: 23px /*no*/;
@@ -100,6 +106,9 @@
 
 [data-dpr="3"] .font-14 {
     font-size: 42px /*no*/;
+}
+.ab-font-14 {
+    font-size: 16px /*no*/;
 }
 [data-dpr="2"] .ab-font-14 {
     font-size: 24px !important /*no*/;

@@ -245,6 +245,9 @@
         margin-bottom: -0.08rem;
     }
 
+    [data-dpr="1"] #slogans .slogans-bg-bottom {
+        margin-bottom: -1rem; 
+    }
     [data-dpr="2"] #slogans .slogans-bg-bottom {
         margin-bottom: -1rem; 
     }
