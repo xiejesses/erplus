@@ -3,9 +3,10 @@
         <header>
             <div class="topBar" :style="{height:height + 'rem', marginBottom:bottom + 'rem'}">
                 <div class="menuTopBar">
-                    <a href="">
+                    <router-link to="/"><img class="titleLogo" src="//www.erplus.co/mp/h5/img/erplus.png" alt=""></router-link>
+                    <!-- <a href="">
                         <img class="titleLogo" src="//www.erplus.co/mp/h5/img/erplus.png" alt="">
-                    </a>
+                    </a> -->
                     <a href="javascript:;" @click="showMenu">
                         <img v-if="isOpen" class="menu-btn close" src="//www.erplus.co/mp/h5/img/close.png" alt="">
                         <img v-else class="menu-btn option" src="//www.erplus.co/mp/h5/img/group.png" alt="">
