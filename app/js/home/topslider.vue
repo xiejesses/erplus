@@ -3,8 +3,8 @@
         <swiper :options="options" :not-next-tick="options.notNextTick">
             <swiper-slide class="slide-first">
                 <article class="slide-first-top">
-                    <p class="font-26">手机上最好用的</p>
-                    <p class="font-26">企业智能化管理系统</p>
+                    <p class="font-26">帮助中小企业提升管理水平</p>
+                    <!-- <p class="font-26">企业智能化管理系统</p> -->
                 </article>
                 <div class="slide-first-middle">
                     <img src="//www.erplus.co/mp/h5/img/animate/make-logo.png" alt="">
@@ -68,7 +68,7 @@
             </swiper-slide>
             <swiper-slide class="slide-fourth">
                 <article>
-                    <h1 class="font-20">绩效系统</h1>
+                    <h1 class="font-20">智能绩效考核 APE</h1>
                     <p class="font-14">团队成员排名
                         <span class="high-light">实时</span>查看</p>
                     <p class="font-14">工作成果自动影响
@@ -159,6 +159,12 @@
         margin-left: 0;
         margin-right: 0;
         width: 100%;
+    }
+    .slide-first .slide-first-top p {
+        color: #333333;
+        letter-spacing: 0;
+        // margin-top: 1.333rem;
+        padding: 0px 50px 0px 50px;
     }
     
     .video {

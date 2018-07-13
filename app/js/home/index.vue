@@ -28,5 +28,7 @@ export default {
 }
 </script>
 <style lang="scss">
-
+// .home {
+//   max-height: 100%;
+// }
 </style>

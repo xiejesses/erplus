@@ -1,30 +1,30 @@
 <template lang="html">
     <div class="content">
         <div id="top-bg">
-            <div class="top-bg-intro font-25">
+            <div class="top-bg-intro font-24">
                 <p>Stay hungry, stay foolish,</p>
                 <p>stay in Plustech.</p>
             </div>
         </div>
 
-        <div class="hi-intro font-28">
+        <div class="hi-intro font-26">
             <p>Hi, We are
-                <span class="color-b font-28">PLUSer</span>
+                <span class="color-b font-26">PLUSer</span>
             </p>
         </div>
 
         <div id="slogans">
             <div class="slogans-item">
-                <h1 class="font-19">大管加使命</h1>
-                <p class="font-15">帮助中小企业提升管理水平</p>
+                <h1 class="font-17">大管加使命</h1>
+                <p class="font-12">帮助中小企业提升管理水平</p>
             </div>
             <div class="slogans-item">
-                <h1 class="font-19">大管加愿景</h1>
-                <p class="font-15">成为最好用、最多企业家使用的智能化管理系统</p>
+                <h1 class="font-17">大管加愿景</h1>
+                <p class="font-12">成为最好用、最多企业家使用的智能化管理系统</p>
             </div>
             <div class="slogans-item" style="padding-bottom: 0.7rem;">
-                <h1 class="font-19">加号价值观</h1>
-                <p class="font-15">诚信、付出、创新、执行</p>
+                <h1 class="font-17">加号价值观</h1>
+                <p class="font-12">诚信、付出、创新、执行</p>
             </div>
             <div class="slogans-bg-bottom">
                 <img src="//www.erplus.co/mp/h5/img/culture/img-mp-culture-slogans-bg.png">
@@ -34,7 +34,7 @@
         <div id="our-culture">
             <div class="our-culture-title-wrapper">
                 <div class="our-culture-title font-28 text-center">加号文化</div>
-                <div class="our-culture-title-en font-16 text-center">OUR CULTURE</div>
+                <div class="our-culture-title-en font-12 text-center">OUR CULTURE</div>
             </div>
         </div>
 
@@ -48,7 +48,7 @@
                             <div class="culture-title">
                                 <img src="//www.erplus.co/mp/h5/img/culture/img-mp-culture-title-01.png">
                             </div>
-                            <div class="culture-text font-16">
+                            <div class="culture-text font-12">
                                 <p>一个开放的工作环境</p>
                                 <p>一个轻松的交流氛围</p>
                                 <p>Hand in hand</p>
@@ -66,7 +66,7 @@
                             <div class="culture-title">
                                 <img src="//www.erplus.co/mp/h5/img/culture/img-mp-culture-title-02.png">
                             </div>
-                            <div class="culture-text font-16">
+                            <div class="culture-text font-12">
                                 <p>即使在深夜</p>
                                 <p>也有“加”人奋战</p>
                                 <p>Enduring through difficulties</p>
@@ -84,7 +84,7 @@
                             <div class="culture-title">
                                 <img src="//www.erplus.co/mp/h5/img/culture/img-mp-culture-title-03.png">
                             </div>
-                            <div class="culture-text font-16">
+                            <div class="culture-text font-12">
                                 <p>一“加”人不说两家话，</p>
                                 <p>在这里，我们敢想敢说，敢恨敢爱</p>
                                 <p>Hate it, love it, just don't be silent on it</p>
@@ -102,7 +102,7 @@
                             <div class="culture-title">
                                 <img src="//www.erplus.co/mp/h5/img/culture/img-mp-culture-title-04.png">
                             </div>
-                            <div class="culture-text font-16">
+                            <div class="culture-text font-12">
                                 <p>一起上山, 一起下海</p>
                                 <p>相信还有更多, 关于我们的故事</p>
                                 <p>It is not a story about he or she</p>
@@ -120,7 +120,7 @@
                             <div class="culture-title">
                                 <img src="//www.erplus.co/mp/h5/img/culture/img-mp-culture-title-05.png">
                             </div>
-                            <div class="culture-text font-16">
+                            <div class="culture-text font-12">
                                 <p>快乐是能和你们一起笑, 一起闹</p>
                                 <p>什么都可以忘掉</p>
                                 <p>The happiness I know</p>
@@ -138,7 +138,7 @@
                             <div class="culture-title">
                                 <img src="//www.erplus.co/mp/h5/img/culture/img-mp-culture-title-06.png">
                             </div>
-                            <div class="culture-text font-16">
+                            <div class="culture-text font-12">
                                 <p>思维的碰撞，观点的交错</p>
                                 <p>生活的点滴，美味的共享</p>
                                 <p>Ideas and experiences, ups and downs</p>
@@ -275,7 +275,7 @@
     }
 
     #our-culture .our-culture-title-wrapper {
-        padding: 1rem 0;
+        padding: 1.4rem 0;
     }
 
     #our-culture .our-culture-title {

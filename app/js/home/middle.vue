@@ -15,7 +15,7 @@
             </div>
         </section>
         <section class="section-third">
-            <p class="font-17">已有超过 2,500 家企业正通过使用大管加进行精细化管理并提升人均效能</p>
+            <p class="font-17">已有超过 3,000 家企业正通过使用大管加进行精细化管理并提升人均效能</p>
             <img src="//www.erplus.co/mp/h5/img/represent-customer.png">
         </section>
     </div>
@@ -36,6 +36,7 @@
         padding: 0;
         background-color: #FFFFFF;
         width: 100%;
+        // max-height: 100%;
         background: url('//www.erplus.co/mp/h5/img/vision.png') no-repeat 0 0;
         background-position: 6.5rem 2.4rem;
         background-size: 2.5rem;
